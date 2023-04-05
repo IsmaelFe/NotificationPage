@@ -3,7 +3,7 @@ const data = [
         avatar: './assets/images/avatar-mark-webber.webp',
         name: 'Mark Webber',
         notification: 'reacted to your recent post My first tournament today!',
-        text: null,
+        text: false,
         date: '1m ago',
         see: false
     },
@@ -11,7 +11,7 @@ const data = [
         avatar: './assets/images/avatar-angela-gray.webp',
         name: 'Angela Gray',
         notification: 'followed you',
-        text: null,
+        text: false,
         date: '5m ago',
         see: false
     },
@@ -19,7 +19,7 @@ const data = [
         avatar: './assets/images/avatar-jacob-thompson.webp',
         name: 'Jacob Thompson',
         notification: 'has joined your group Chess Club',
-        text: null,
+        text: false,
         date: '1 day ago',
         see: false
     },
@@ -36,7 +36,7 @@ const data = [
         avatar: './assets/images/avatar-kimberly-smith.webp',
         name: 'Kimberly Smith',
         notification: 'commented on your picture',
-        text: null,
+        text: false,
         date: '1 week ago',
         see: true
     }, 
@@ -44,7 +44,7 @@ const data = [
         avatar: './assets/images/avatar-nathan-peterson.webp',
         name: 'Nathan Peterson',
         notification: 'reacted to your recent post 5 end-game strategies to increase your',
-        text: null,
+        text: false,
         date: '2 weeks ago',
         see: true
     },
@@ -52,7 +52,7 @@ const data = [
         avatar: './assets/images/avatar-anna-kim.webp',
         name: 'Anna',
         notification: 'left the group Chess Club',
-        text: null,
+        text: false,
         date: '2 weeks ago',
         see: true
     }

@@ -6,14 +6,20 @@ const NotificationList = () => {
 
     const [inicialState, setInicialState] = useState(data);
 
-    let contador = 0;
-    const [cont, setCont] = useState(contador);
+    let contador = 0
+    
+    const [cont, setCont] = useState(0);
+    
 
-    function cambioNotifi(noti) {
-        const index = inicialState.indexOf(noti)
-        const newState = [...inicialState]
-        newState[index].see = !newState[index].see
-        setCont(newState)
+    function cambioNotifi(notificacion) {
+        const index = inicialState.indexOf(notificacion)
+        let newState = [...inicialState]
+        if(newState[index].see === false) {
+            newState[index].see = !newState[index].see
+            setInicialState(newState)
+        } else if(newState[index].see === true) {
+            setInicialState(newState)
+        }
     }
 
     return (
