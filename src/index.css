@@ -1,1 +1,14 @@
 
+.second-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-container {
+    margin: 10px;
+}
+
+.not-container {
+    background-color: #F7FBFC;
+    margin: 8px;
+}
