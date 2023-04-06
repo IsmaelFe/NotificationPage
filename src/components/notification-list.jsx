@@ -4,13 +4,14 @@ import CompNotification from './notification';
 
 const NotificationList = () => {
 
+
     const [inicialState, setInicialState] = useState(data);
-
-    let contador = 0
-    
     const [cont, setCont] = useState(0);
-    
 
+
+    const lenght = inicialState.filter(element => element.see === false).length
+
+    
     function cambioNotifi(notificacion) {
         const index = inicialState.indexOf(notificacion)
         let newState = [...inicialState]
@@ -23,17 +24,19 @@ const NotificationList = () => {
     }
 
     return (
-        <div>
+        <div className='firts-container'>
             <div className='second-container'>
-                <h2>
-                    Notifications
-                </h2>
-                <div>
-                    { cont }
+                <div className='cont-container'>
+                    <h2>
+                        Notifications
+                    </h2>
+                    <div className='contador-container'>
+                        { lenght }
+                    </div>
                 </div>
-                <h2>
+                <p>
                     Mark all as read
-                </h2>
+                </p>
             </div>
             <div className='third-container'>
                 { inicialState.map((noti, i) => (

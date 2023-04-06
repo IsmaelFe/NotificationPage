@@ -3,6 +3,24 @@
 .second-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.cont-container {
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.contador-container {
+    color: white;
+    background-color: #0A317B;
+    padding: 2px 12px;
+    height: 30px;
+    border-radius: 6px;
 }
 
 .third-container {
