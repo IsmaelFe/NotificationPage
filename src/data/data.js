@@ -3,8 +3,8 @@ const data = [
         avatar: './assets/images/avatar-mark-webber.webp',
         name: 'Mark Webber',
         picture: null,
-        action: 'reacted to your recent post! ',
-        resalted:'My first tournament today!',
+        notification: 'reacted to your recent post ',
+        action:'My first tournament today!',
         text: null,
         date: '1m ago',
         see: false
@@ -51,8 +51,8 @@ const data = [
         avatar: './assets/images/avatar-nathan-peterson.webp',
         name: 'Nathan Peterson',
         picture: null,
-        action: 'reacted to your recent post ',
-        resalted: '5 end-game strategies to increase your win rate',
+        notification: 'reacted to your recent post ',
+        action: '5 end-game strategies to increase your win rate',
         text: null,
         date: '2 weeks ago',
         see: true
