@@ -1,6 +1,6 @@
 const data = [
     {
-        avatar: 'assets/images/avatar-mark-webber.webp',
+        avatar: './assets/images/avatar-mark-webber.webp',
         name: 'Mark Webber',
         picture: null,
         notification: 'reacted to your recent post ',
@@ -10,7 +10,7 @@ const data = [
         see: false
     },
     {
-        avatar: 'assets/images/avatar-angela-gray.webp',
+        avatar: './assets/images/avatar-angela-gray.webp',
         name: 'Angela Gray',
         picture: null,
         notification: 'followed you',
@@ -19,7 +19,7 @@ const data = [
         see: false
     },
     {
-        avatar: 'assets/images/avatar-jacob-thompson.webp',
+        avatar: './assets/images/avatar-jacob-thompson.webp',
         name: 'Jacob Thompson',
         picture: null,
         notification: 'has joined your group ',
@@ -29,7 +29,7 @@ const data = [
         see: false
     },
     {
-        avatar: 'assets/images/avatar-rizky-hasanuddin.webp', 
+        avatar: './assets/images/avatar-rizky-hasanuddin.webp', 
         name: 'Rizky Hasanuddin',
         picture: null,
         notification: 'sent you a private message',
@@ -39,16 +39,16 @@ const data = [
         see: true
     },
     {
-        avatar: 'assets/images/avatar-kimberly-smith.webp',
+        avatar: './assets/images/avatar-kimberly-smith.webp',
         name: 'Kimberly Smith',
-        picture: 'assets/images/image-chess.webp',
+        picture: './assets/images/image-chess.webp',
         notification: 'commented on your picture',
         text: null,
         date: '1 week ago',
         see: true
     }, 
     {
-        avatar: 'assets/images/avatar-nathan-peterson.webp',
+        avatar: './assets/images/avatar-nathan-peterson.webp',
         name: 'Nathan Peterson',
         picture: null,
         notification: 'reacted to your recent post ',
@@ -58,7 +58,7 @@ const data = [
         see: true
     },
     {
-        avatar: 'assets/images/avatar-anna-kim.webp',
+        avatar: './assets/images/avatar-anna-kim.webp',
         name: 'Anna',
         picture: null,
         notification: 'left the group ',
