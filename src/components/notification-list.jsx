@@ -6,7 +6,6 @@ const NotificationList = () => {
 
 
     const [inicialState, setInicialState] = useState(data);
-    const [cont, setCont] = useState(0);
 
 
     const lenght = inicialState.filter(element => element.see === false).length
@@ -24,29 +23,31 @@ const NotificationList = () => {
     }
 
     return (
-        <div className='firts-container'>
-            <div className='second-container'>
-                <div className='cont-container'>
-                    <h2>
-                        Notifications
-                    </h2>
-                    <div className='contador-container'>
-                        { lenght }
+        <div className='container-main'>
+            <div className='firts-container'>
+                <div className='second-container'>
+                    <div className='cont-container'>
+                        <h2>
+                            Notifications
+                        </h2>
+                        <div className='contador-container'>
+                            { lenght }
+                        </div>
                     </div>
+                    <p className='container-p'>
+                        Mark all as read
+                    </p>
                 </div>
-                <p>
-                    Mark all as read
-                </p>
-            </div>
-            <div className='third-container'>
-                { inicialState.map((noti, i) => (
-                    <CompNotification
-                        key={ i }
-                        noti={ noti }
-                        cambioNoti={ cambioNotifi }
-                    />
-                ))
-            }
+                <div className='third-container'>
+                    { inicialState.map((noti, i) => (
+                        <CompNotification
+                            key={ i }
+                            noti={ noti }
+                            cambioNoti={ cambioNotifi }
+                        />
+                    ))
+                }
+                </div>
             </div>
         </div>
     )

@@ -2,30 +2,36 @@ const data = [
     {
         avatar: './assets/images/avatar-mark-webber.webp',
         name: 'Mark Webber',
-        notification: 'reacted to your recent post My first tournament today!',
-        text: false,
+        picture: null,
+        notification: 'reacted to your recent post! ',
+        resalted:'My first tournament today!',
+        text: null,
         date: '1m ago',
         see: false
     },
     {
         avatar: './assets/images/avatar-angela-gray.webp',
         name: 'Angela Gray',
+        picture: null,
         notification: 'followed you',
-        text: false,
+        text: null,
         date: '5m ago',
         see: false
     },
     {
         avatar: './assets/images/avatar-jacob-thompson.webp',
         name: 'Jacob Thompson',
-        notification: 'has joined your group Chess Club',
-        text: false,
+        picture: null,
+        notification: 'has joined your group ',
+        resalt: 'Chess Club',
+        text: null,
         date: '1 day ago',
         see: false
     },
     {
         avatar: './assets/images/avatar-rizky-hasanuddin.webp', 
         name: 'Rizky Hasanuddin',
+        picture: null,
         notification: 'sent you a private message',
         text: `Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
         I'm already having lots of fun and improving my game.`,
@@ -35,27 +41,32 @@ const data = [
     {
         avatar: './assets/images/avatar-kimberly-smith.webp',
         name: 'Kimberly Smith',
+        picture: './assets/images/image-chess.webp',
         notification: 'commented on your picture',
-        text: false,
+        text: null,
         date: '1 week ago',
         see: true
     }, 
     {
         avatar: './assets/images/avatar-nathan-peterson.webp',
         name: 'Nathan Peterson',
-        notification: 'reacted to your recent post 5 end-game strategies to increase your',
-        text: false,
+        picture: null,
+        notification: 'reacted to your recent post ',
+        resalted: '5 end-game strategies to increase your win rate',
+        text: null,
         date: '2 weeks ago',
         see: true
     },
     {
         avatar: './assets/images/avatar-anna-kim.webp',
         name: 'Anna',
-        notification: 'left the group Chess Club',
-        text: false,
+        picture: null,
+        notification: 'left the group ',
+        resalt: 'Chess Club',
+        text: null,
         date: '2 weeks ago',
         see: true
-    }
+    }   
 ]
 
 export default data

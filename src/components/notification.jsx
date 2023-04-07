@@ -14,27 +14,38 @@ const CompNotification = ({ noti, cambioNoti }) => {
                     <img src={ noti.avatar } alt='avatar' />
                 </div>
                 <div className='container-name'>
-                <span className='span-name'>
-                    { noti.name }   
-                </span>
-                { noti.notification }
-                {
-                    noti.see === false ?
-                        <i class="bi bi-circle-fill"></i>
+                    <span className='span-name'>
+                        { noti.name }   
+                    </span>
+                    { noti.notification }
+                    <span className='container-resalt'>
+                        { noti.resalt }
+                    </span>
+                    <span className='container-resalted'>
+                        { noti.resalted }
+                    </span>
+                    {
+                        noti.see === false ?
+                            <i class="bi bi-circle-fill"></i>
+                        :
+                        null
+                    }
+                    <div className='container-date'>
+                        { noti.date }  
+                    </div>
+                    { noti.text === null ? 
+                        null
+                        :
+                        <p className='container-text'>
+                            { noti.text }
+                        </p>
+                        }
+                </div>
+                { noti.picture !== null ?
+                    <img className='container-picture' src={ noti.picture } alt='image' />
                     :
                     null
                 }
-                <div className='container-date'>
-                    { noti.date }  
-                </div>
-                { noti.tex !== false ?
-                    <div className='container-text'>
-                        {noti.text}
-                    </div>
-                    :
-                    <span className='new-container'></span>
-                    }
-                </div>
             </div>
         </div>
     )
