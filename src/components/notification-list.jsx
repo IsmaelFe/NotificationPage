@@ -23,7 +23,6 @@ const NotificationList = () => {
     }
 
     return (
-        <div className='container-main'>
             <div className='firts-container'>
                 <div className='second-container'>
                     <div className='cont-container'>
@@ -49,7 +48,6 @@ const NotificationList = () => {
                 }
                 </div>
             </div>
-        </div>
     )
 }
 

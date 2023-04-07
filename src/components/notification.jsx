@@ -19,10 +19,10 @@ const CompNotification = ({ noti, cambioNoti }) => {
                     </span>
                     { noti.notification }
                     <span className='container-resalt'>
-                        { noti.resalt }
+                        { noti.activity }
                     </span>
                     <span className='container-resalted'>
-                        { noti.resalted }
+                        { noti.action }
                     </span>
                     {
                         noti.see === false ?
